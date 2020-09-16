@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 
 <types>
-    <type name="ACOGOptic">
+	<!---ModName --->
+	<type name="ACOGOptic">
         <nominal>12</nominal>
         <lifetime>86400</lifetime>
         <restock>1800</restock>
@@ -13,6 +14,7 @@
         <category name="weapons"/>
         <usage name="Military"/>
     </type>
+	<!---ModName2--->
         <type name="AK101">
         <nominal>5</nominal>
         <lifetime>172800</lifetime>
