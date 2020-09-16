@@ -113,6 +113,12 @@
 		MoneyRuble25,			1,		25,		-1
 		MoneyRuble50,			1,		50,		-1
 		MoneyRuble100,			1,		100,	-1
+		//Trader_Walle
+		Briefcase				*,		1,		1
+		LargeWallet				*,		1,		1
+		SmallWalletBlack		*,		1,		1
+		SmallWalletBlue			*,		1,		1
+		SmallWalletBrown		*,		1,		1
 
 
 <Trader> Misc Trader
