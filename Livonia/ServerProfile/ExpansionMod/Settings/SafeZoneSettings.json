@@ -1,0 +1,7 @@
+{
+    "Enabled": 0,
+    "EnableVehicleinvincibleInsideSafeZone": 1,
+    "FrameRateCheckSafeZoneInMs": 5000,
+    "CircleZones": [],
+    "PolygonZones": []
+}

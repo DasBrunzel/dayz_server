@@ -1,0 +1,19 @@
+{
+    "VehicleName": "ExpansionCivilianSedanTest",
+    "DisplayName": "",
+    "Parts": [
+        "CivSedanHood",
+        "CivSedanTrunk",
+        "CivSedanDoors_Driver",
+        "CivSedanDoors_BackRight",
+        "CivSedanDoors_BackLeft",
+        "CivSedanDoors_CoDriver",
+        "ExpansionCivSedanWheel",
+        "ExpansionCivSedanWheel",
+        "ExpansionCivSedanWheel",
+        "ExpansionCivSedanWheel",
+        "CarBattery",
+        "CarRadiator",
+        "SparkPlug"
+    ]
+}
