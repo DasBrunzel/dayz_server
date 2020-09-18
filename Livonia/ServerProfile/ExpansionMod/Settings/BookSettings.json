@@ -10,34 +10,21 @@
         "ServerButtons": [
             {
                 "IconPath": "set:expansion_iconset image:icon_group",
-                "URL": "https://exp.thurston.pw",
+                "URL": "https://github.com/DasBrunzel/dayz_server/issues",
                 "Tooltip": "Feedback",
                 "Color": -1
             },
             {
                 "IconPath": "set:expansion_iconset image:icon_discord",
-                "URL": "https://discord.io/expansion",
-                "Tooltip": "Discord",
+                "URL": "ts3server://ts3.gamblerpack.de?port=9987",
+                "Tooltip": "Teamspeak",
                 "Color": -1
             },
             {
                 "IconPath": "set:expansion_iconset image:icon_home",
-                "URL": "https://www.google.com",
+                "URL": "https://www.gamblerpack.de",
                 "Tooltip": "Homepage",
                 "Color": -1
-            },
-            {
-                "IconPath": "set:expansion_iconset image:icon_forums",
-                "URL": "https://www.google.com",
-                "Tooltip": "Forums",
-                "Color": -1
-            },
-            {
-                "IconPath": "set:expansion_iconset image:icon_patreon",
-                "URL": "https://www.patreon.com/dayzexpansion",
-                "Tooltip": "Patreon",
-                "Color": -1
-            }
         ],
         "ServerSections": [
             {

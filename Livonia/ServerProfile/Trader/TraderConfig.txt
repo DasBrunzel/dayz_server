@@ -956,7 +956,7 @@
 	<Category> Holster & Pouches
 		ChestHolster,			*,		60,		20
 		PlateCarrierHolster,	*,		60,		20
-		PlateCarrierPouches,	*,		100,	20
+		PlateCarrierPouches,	*,		100,		20
 		
 	<Category> Belt
 		CivilianBelt,			*,		100,	30
