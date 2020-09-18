@@ -786,23 +786,4 @@
             <child lootmax="0" lootmin="0" max="5" min="3" type="Sedan_02_Red"/>
         </children>
     </event>
-	<!---- Fairline Car ---->
-	<event name="Vehiclegglaw_Fairlane500">
-        <nominal>30</nominal>
-        <min>7</min>
-        <max>13</max>
-        <lifetime>300</lifetime>
-        <restock>0</restock>
-        <saferadius>500</saferadius>
-        <distanceradius>500</distanceradius>
-        <cleanupradius>200</cleanupradius>
-        <flags deletable="0" init_random="0" remove_damaged="1"/>
-        <position>fixed</position>
-        <limit>mixed</limit>
-        <active>1</active>
-        <children>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="gglaw_Fairlane500"/>
-            <child lootmax="0" lootmin="0" max="5" min="3" type="gglaw_Fairlane500_Black"/>
-        </children>
-    </event>
 </events>
