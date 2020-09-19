@@ -3,7 +3,7 @@
     "EnableGlobalChat": 1,
     "EnablePartyChat": 1,
     "EnableTransportChat": 1,
-    "EnableGravecross": 0,
+    "EnableGravecross": 1,
     "GravecrossDeleteBody": 1,
     "GravecrossTimeThreshold": 1200,
     "Mapping": {
@@ -25,7 +25,7 @@
     "PlayerTagViewRange": 5,
     "EnablePlayerList": 1,
     "EnableAutoRun": 1,
-    "UnlimitedStamina": 0,
+    "UnlimitedStamina": 1,
     "UseDeathScreen": 1,
     "UseDeathScreenStatistics": 1,
     "UseNewsFeedInGameMenu": 1
