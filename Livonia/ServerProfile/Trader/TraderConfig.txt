@@ -442,17 +442,7 @@
 		
 	<Category> Flashlights
 		Universallight,			*,		120,	60
-	
-	
-<Trader> Clothing Trader
-	<Category> neuRadiation
-		alp_NBCJacketCamo,
-		alp_NBCPantsCamo,
-		alp_NBCHoodCamo,
-		alp_NBCBootsCamo,
-		alp_NBCGlovesCamo,
-		alp_GasMaskCamo,
-		
+
 	<Category> Glasses
 		SportGlasses_Orange,	*,		17,		8
 		SportGlasses_Blue,		*,		18,		9
