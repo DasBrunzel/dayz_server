@@ -20,7 +20,6 @@
 
 <Trader> Consume Trader								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
 	<Category> Vegetables							// Category Name
-		MoneyRuble100,			500,	 0,		-1
 		CaninaBerry,			*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
 		SambucusBerry,			*,		1,		-1	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
 		Plum,					*,		1,		-1	// Buyvalue -1 means it can not be bought
@@ -128,7 +127,6 @@
 
 <Trader> Misc Trader
 	<Category> Tools (small)
-		MoneyRuble100,			500,	 0,		-1
 		Screwdriver,			*,		3,		1
 		Wrench,					*,		3,		1
 		SewingKit,				*,		4, 		1
@@ -252,7 +250,6 @@
 		
 <Trader> Weapon Trader
 	<Category> Melee	
-		MoneyRuble100,			500,	 0,		-1
 		BrassKnuckles_Shiny,	W,		15,		6
 		StunBaton,				W,		15,		9
 		Pipe,					W,		25,		10
@@ -381,81 +378,10 @@
 		RDG2SmokeGrenade_Black,	1,		300,	100
 		RDG2SmokeGrenade_White,	1,		300,	100
 		FlashGrenade,			1,		300,	100
-
-	// StWeaponPack
-
-	<Category> Neue Waffen
-		St_W_AK12,
-		St_W_GalilARM,
-		St_W_KAC_PDW,
-		St_W_M16A1,
-		St_W_M16A1Apocal,
-		St_W_M16A1_belted,
-		St_W_M16A1Apocal_belted,
-		St_W_M16A1_launcher,
-		St_W_M16A1Apocal_launcher,
-		St_W_PKM,
-		St_W_RPK,
-		St_W_BerettaM9,
-		St_W_Walther,
-		St_W_BenelliM4,
-		St_W_BarretM107,
-		St_W_Kar98k,
-		St_W_M39EMR,
-		St_W_M39EMR_brown,
-		St_W_M39EMR_tan,
-		St_W_M39EMR_pixelcity,
-		St_W_M39EMR_pixeltan,
-		St_W_SV98,
-		St_W_Colt_9mm,
-		St_W_MP5SD,
 		
-	<Category> Neue Magazine	
-		St_AmmoBox_57x28_50Rnd,
-		St_AmmoBox_792x57_20Rnd,
-		St_AmmoBox_12_7x99_10Rnd,
-		St_AmmoBox_338_20Rnd,
-		St_AmmoBox_408_20Rnd,
-		St_Mag_GalilARM_35Rnd,
-		St_Mag_M16A1_20Rnd,
-		St_Mag_PKM_100Rnd,
-		St_Mag_PKM_200Rnd,
-		St_Mag_PKM_250Rnd,
-		St_Mag_RPK_40Rnd,
-		St_Mag_BerettaM9_15Rnd,
-		St_Mag_Walther_16Rnd,
-		St_Mag_BarretM107_10Rnd,
-		St_Mag_M39_20Rnd,
-		St_Mag_SV98_10rnd,
-		St_Mag_Colt_9mm_30Rnd,
-		Mag_MP5_30Rnd,
-		
-	<Category> Neue Munition
-		St_Ammo_57x28,
-		St_Ammo_792x57,
-		St_Ammo_12_7x99,
-		St_Ammo_40mm_HE,
-		St_Ammo_338,
-		St_Ammo_408,
-		St_Ammo_CrossBowBolt,
-		
-		
-	<Category> Neue Anbauteile
-		St_O_Holosight,
-		St_O_OKP7,
-		St_O_PVS4Optic,
-		St_M_PBRSuppressor,
-		St_M_PBS1_Suppressor,
-		St_M_PBS4_Suppressor,
-		St_M_USPSuppressor,
-		St_M_WaltherSuppressor,
-		
-	<Category> Neue Granaten
-		St_G_MK2Grenade,		
 		
 <Trader> Weapon Supplies
 	<Category> Ammunition
-		MoneyRuble100,			500,	 0,		-1
 		Ammo_380,				1,		1,		-1
 		Ammo_9x19,				1,		1,		-1
 		Ammo_22,				1,		1,		-1
@@ -585,7 +511,9 @@
 		
 	<Category> Flashlights
 		Universallight,			*,		120,	60
-
+	
+	
+<Trader> Clothing Trader
 	<Category> Glasses
 		SportGlasses_Orange,	*,		17,		8
 		SportGlasses_Blue,		*,		18,		9
@@ -1174,7 +1102,6 @@
 	
 <Trader> Vehicles Trader
 	<Category> Vehicles
-		MoneyRuble100,			500,	 0,		-1
 		OffroadHatchback,		V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
 		OffroadHatchback_Blue,	V,		14000,	8000
 		OffroadHatchback_White,	V,		14000,	8000
@@ -1187,6 +1114,34 @@
 		CivilianSedan,			V,		20000,	11000
 		CivilianSedan_Wine,		V,		20000,	11000
 		CivilianSedan_Black,	V,		20000,	11000
+		
+	<Category> TrailBruizer 
+		trailtester,				V,	25000,	12000
+
+	<Category> TrailBruizer Parts
+		trailtesterhood,			*,	500,	100
+		trailtesterdoors_cargo1,	*,	500,	100
+		trailtesterdoors_cargo2,	*,	500,	100
+		trailtesterdoors_driver,	*,	500,	100
+		trailtesterdoors_codriver,	*,	500,	100
+		trailtesterTrunk,			*,	500,	100
+		trailtesterWheel,			*,	500,	100	
+		
+	<Category> TrailBruizer Amor
+		Bruiser_Armour,			*,	500,	100
+		BruiserTrunkArmour,	*,	500,	100
+		BruiserHoodArmour,	*,	500,	100
+		Bruiser_ArmourRR,	*,	500,	100
+		Bruiser_ArmourRL,	*,	500,	100
+		Bruiser_ArmourDD,			*,	500,	100
+		Bruiser_ArmourCDD,			*,	500,	100	
+		Bruiser_ArmourC1,			*,	500,	100
+		Bruiser_ArmourC2,	*,	500,	100
+		Bruiser_BullBars,	*,	500,	100
+		Bruiser_Skull,	*,	500,	100
+		Bruiser_ArmourRL,	*,	500,	100
+		Bruiser_ArmourDD,			*,	500,	100
+		Bruiser_ArmourCDD,			*,	500,	100	
 	
 	<Category> Vehicle Parts
 		HeadlightH7_Box,		*,		30,		15
