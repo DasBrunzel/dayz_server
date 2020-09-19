@@ -20,6 +20,7 @@
 
 <Trader> Consume Trader								// Trader Name (first Trader has ID = 0, second Trader has ID = 1, and so on..)
 	<Category> Vegetables							// Category Name
+		MoneyRuble100,			500,	 0,		-1
 		CaninaBerry,			*,		1,		-1	// Item Classname, Quantity, Buyvalue, Sellvalue
 		SambucusBerry,			*,		1,		-1	// Quantity * means max value; Quantity V means Vehicle; Quantity VNK means Vehicle without Key; Quantity M means Magazine; Quantity W means Weapon; Quantity S means Steack Meat; Quantity K means Key Duplication
 		Plum,					*,		1,		-1	// Buyvalue -1 means it can not be bought
@@ -127,6 +128,7 @@
 
 <Trader> Misc Trader
 	<Category> Tools (small)
+		MoneyRuble100,			500,	 0,		-1
 		Screwdriver,			*,		3,		1
 		Wrench,					*,		3,		1
 		SewingKit,				*,		4, 		1
@@ -250,6 +252,7 @@
 		
 <Trader> Weapon Trader
 	<Category> Melee	
+		MoneyRuble100,			500,	 0,		-1
 		BrassKnuckles_Shiny,	W,		15,		6
 		StunBaton,				W,		15,		9
 		Pipe,					W,		25,		10
@@ -383,6 +386,7 @@
 		
 <Trader> Weapon Supplies
 	<Category> Ammunition
+		MoneyRuble100,			500,	 0,		-1
 		Ammo_380,				1,		1,		-1
 		Ammo_9x19,				1,		1,		-1
 		Ammo_22,				1,		1,		-1
@@ -1101,6 +1105,7 @@
 	
 <Trader> Vehicles Trader
 	<Category> Vehicles
+		MoneyRuble100,			500,	 0,		-1
 		OffroadHatchback,		V,		14000,	8000	// Use VNK instead of V as Quantity to not give a Vehicle Key when bought.
 		OffroadHatchback_Blue,	V,		14000,	8000
 		OffroadHatchback_White,	V,		14000,	8000
