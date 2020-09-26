@@ -65,23 +65,11 @@ void main()
 	}
 }
 
-/**@class		CustomExpansionMission
- * @brief		This class handle expansion serverside mission
- **/
 class CustomMission: MissionServer
-{
+{	
 	// ------------------------------------------------------------
-	// SetRandomHealth
+	// Override OnInit
 	// ------------------------------------------------------------
-	void SetRandomHealth(EntityAI itemEnt)
-	{
-		if ( itemEnt )
-		{
-			int rndHlt = Math.RandomInt(55,100);
-			itemEnt.SetHealth("","",rndHlt);
-		}
-	}
-	
 	override void OnInit()
 	{
 		ExpansionMissionModule missionModule;
@@ -94,29 +82,37 @@ class CustomMission: MissionServer
 	}
 	
 	// ------------------------------------------------------------
-	// Override PlayerBase CreateCharacter
+	// Override CreateCharacter
 	// ------------------------------------------------------------
 	override PlayerBase CreateCharacter(PlayerIdentity identity, vector pos, ParamsReadContext ctx, string characterName)
 	{
 		Entity playerEnt;
-		playerEnt = GetGame().CreatePlayer(identity, characterName, pos, 0, "NONE");//Creates random player
-		Class.CastTo(m_player, playerEnt);
+		playerEnt = GetGame().CreatePlayer( identity, characterName, pos, 0, "NONE" );
+		Class.CastTo( m_player, playerEnt );
 
-		GetGame().SelectPlayer(identity, m_player);
+		GetGame().SelectPlayer( identity, m_player );
 
 		return m_player;
 	}
-
+	
 	// ------------------------------------------------------------
-	// Override StartingEquipSetup
+	// SetRandomHealth
+	// ------------------------------------------------------------
+	void SetRandomHealth(EntityAI itemEnt)
+	{
+		if ( itemEnt )
+		{
+			float rndHlt = Math.RandomFloat( 0.25, 0.65 );
+			itemEnt.SetHealth01( "", "", rndHlt );
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// StartingEquipSetup
 	// ------------------------------------------------------------
 	override void StartingEquipSetup(PlayerBase player, bool clothesChosen)
 	{
-		if ( GetExpansionSettings() && GetExpansionSettings().GetSpawn() && GetExpansionSettings().GetSpawn().StartingGear.UseStartingGear )
-		{
-			SetStartingGear(player);
-		}
-		else
+		if ( !GetExpansionSettings().GetSpawn().StartingClothing.EnableCustomClothing )
 		{
 			EntityAI itemClothing;
 			EntityAI itemEnt;
@@ -159,7 +155,7 @@ class CustomMission: MissionServer
 				SetRandomHealth( itemClothing );
 		}
 	}
-};
+}
 
 Mission CreateCustomMission(string path)
 {
