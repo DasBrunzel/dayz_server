@@ -197,6 +197,23 @@
 	Sedan_02_Wheel
 	Sedan_02_Wheel		
 	
+<VehicleParts> trailtester
+	trailtesterhood
+	trailtesterdoors_cargo1
+	trailtesterdoors_cargo2
+	trailtesterdoors_driver
+	trailtesterdoors_codriver
+	trailtesterTrunk
+	trailtesterWheel
+	trailtesterWheel
+	trailtesterWheel
+	trailtesterWheel
+	SparkPlug						
+	CarBattery
+	CarRadiator
+	HeadlightH7
+	HeadlightH7
+	
 	
 //<OpenFile> FileName.txt			// Links to another File; Must be right above <FileEnd>!
 <FileEnd>							// This has to be on the End of this File and is very importand!
