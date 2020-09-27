@@ -30,13 +30,13 @@ class ApartmentMission extends SurvivorMissions
 		m_MissionInformant = "Dr. Legasov";
 		
 		//Mission person names
-		TStringArray SurvivorNames = {"Yuri", "Michail", "Boris", "Valeri", "Anatoli", "Ivan", "Alexej", "Dimitrij", "Sergej", "Nikolai" };
+		TStringArray SurvivorNames = {"Yuri", "Bruno", "Gonso", "Andy", "Anatoli", "Ivan", "Joe", "Dimitrij", "Sergej", "Nikolai" };
 		SurvivorName = SurvivorNames.GetRandomElement();
 						
 		//Mission messages 
-        m_MissionMessage1 = SurvivorName +" was one of my best students. I used to talk to him on the radio, but now I have lost contact with him.";
-        m_MissionMessage2 = "He told me that he has hidden a seachest with good equipment somewhere in the apartments. A few days ago he barricaded the whole building against the infected.";
-        m_MissionMessage3 = "He used to live in one of the apartments\n** "+ m_MissionLocationDir +" of "+ m_MissionLocation+" **\nPlease check if "+SurvivorName+" is still alive. If not, then take his stuff to help you survive.";
+        m_MissionMessage1 = SurvivorName +" war einer meiner besten Schueler. Wir hatten Funkkontakt, Ich kann ihn aber nicht mehr erreichen.";
+        m_MissionMessage2 = "Er sagte er hat eine Seekiste mit guter Ausrüstung versteckt. Er wollte das Haus wegen den Infizierten versiegeln.";
+        m_MissionMessage3 = "Er lebte in einer der Wohnungen\n** "+ m_MissionLocationDir +" von "+ m_MissionLocation+" **\nBitte pruefe ob "+SurvivorName+" noch lebt. Wenn nicht dann schnapp dir das Zeug..";
 				
 		//Mission object spawnpoints in mission building	
 		Spawnpoints.Insert("8.1257 2.7203 3.1963");
