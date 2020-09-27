@@ -44,13 +44,13 @@ class CityMallMission extends SurvivorMissions
 		m_MissionInformant = "Dr. Legasov";
 	
 		//Mission person names
-		TStringArray SurvivorNames = {"Tamarova", "Lorzinski", "Blosmanova", "Gabarin", "Sloskova", "Belzin", "Homyuk", "Trademzyuk", "Jankarova"};
+		TStringArray SurvivorNames = {"Tamarova", "Lorzinski", "Blosmanova", "Gabarin", "Sloskova", "Belzin", "Becker", "Trademzyuk", "Jankarova"};
 		SurvivorName = SurvivorNames.GetRandomElement();
 		
 		//Set mission messages for primary mission
-		m_MissionMessage1 = "Ms. "+ SurvivorName +", a ground school teacher, told me that she has brought some children of her class in safety from their infected families. I promised that i will help her for getting food and other medical supplies for the kids.";
-		m_MissionMessage2 = "Yesterday I found out that the Supermarket in\n** "+ m_MissionLocation +" **\nis barricaded and probably has some food inside. But there were too many infected around, i wasn't able to check the Supermarket.";
-		m_MissionMessage3 = "She immediately needs following things from the market:\n- "+ ReqFoodAmount +" cans of food and..\n- "+ ReqMedAmount +" packets of antibiotics\nPlease help me to support Ms. "+ SurvivorName +" with those life essentials for the kids.";
+		m_MissionMessage1 = "Frau "+ SurvivorName +", ist Grundschullehrerin, sie brachte einige Kinder in Sicherheit und ich versprach ihr Unterstuetzung mit Medizin und Essen.";
+		m_MissionMessage2 = "Gestern erfuhr ich das der Supermarkt in\n** "+ m_MissionLocation +" **\nscheinbar noch nicht geplündert wurde. Eine Menge Zombies belagern das Gebiet, deshalb konnte ich es nicht ueberpruefen.";
+		m_MissionMessage3 = "Die Kinder benoeting dringen die Waren aus diesem Markt:\n- "+ ReqFoodAmount +" Konserven und..\n- "+ ReqMedAmount +" Antibiotika Packungen\nBitte hilf Frau. "+ SurvivorName +" und den Kindern.";
 		
 		//Spawnpoints for antibiotics in store (cash desk)
 		MedSpawns.Insert("-5.392 -0.686 1.087");
