@@ -36,13 +36,13 @@ class BearHuntMission extends SurvivorMissions
 		m_MissionInformant = "Dr. Legasov";
 	
 		//Mission person names
-		TStringArray SurvivorNames = {"Yuri", "Michail", "Boris", "Valeri", "Anatoli", "Ivan", "Alexej", "Dimitrij", "Sergej", "Nikolai"};
+		TStringArray SurvivorNames = {"Joe", "Michail", "Boris", "Valeri", "Gonso", "Ivan", "Alexej", "Andy", "Sergej", "Bruno"};
 		SurvivorName = SurvivorNames.GetRandomElement();
 		
 		//Set mission messages for primary mission
-		m_MissionMessage1 = "A survivor recently reported to me that a bear attacked my friend "+ SurvivorName +" and killed 2 other survivor's. They went to the wrong location trying to hunt some deer in the forest of "+ m_MissionLocation +".";
-		m_MissionMessage2 = "I still can't believe it. "+ SurvivorName +" was one of the best hunters araound here. Once a week he brought fresh meat to the hidden camp to feed the survivor's. He was never selfless and tried to do everything to help out in the camp.";
-		m_MissionMessage3 = "The bear was last reported at the forest near\n** "+ m_MissionLocationDir +" of "+ m_MissionLocation +" **\nI want you to kill this animal and take his pelt. It's not for revenge, we just need the pelt to make winter clothing for the kids. Be careful!";
+		m_MissionMessage1 = "Ein Neuankoemling berichtete mir ein Baer meinen Freund "+ SurvivorName +" und zwei weitere Menschen getoetet hat. Sie waren einfach zur falschen Zeit auf der Jagt nach Wild im Wald von "+ m_MissionLocation +".";
+		m_MissionMessage2 = "Ich fasse es einfach nicht. "+ SurvivorName +" war einer der besten Jaeger hier. Letze Woche brachte er noch frisches Fleisch um die Ueberlebenden zu versorgen. Er war immer hilfsbereit und versuchte jeden im Camp zu unterstuetzen.";
+		m_MissionMessage3 = "Der Baer wurde zuletzt im Wald nahe\n** "+ m_MissionLocationDir +" bei "+ m_MissionLocation +" **\ngesehen. Toete das Biest und schnapp dir seinen Pelz. Nicht aus Rache, wir brauchen nur warme Kleidung fuer die Kinder. Sei vorsichtig!";
 		
 		//Spawnpoint for MissionObject for secondary mission
 		Spawnpoints.Insert("-18.40 2.19 18.57");
