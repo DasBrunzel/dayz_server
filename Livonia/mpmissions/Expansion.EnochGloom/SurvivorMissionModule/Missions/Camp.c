@@ -36,9 +36,9 @@ class CampMission extends SurvivorMissions
 		SurvivorName = SurvivorNames.GetRandomElement();
 		
 		//Set mission messages
-        m_MissionMessage1 = "My friend "+ SurvivorName +" hasn't responded on the radio for last 2 hours. He is an excellent outdoor survivor and im wondering if he's ok.";
-        m_MissionMessage2 = "His daughter is infected,  He looks after her sometimes. About 5 hours ago, he told me that he has found  stuff in some houses of "+ m_MissionLocation +" and was attacked on the way back to his camp but wasn't injured.";
-        m_MissionMessage3 = "I think he said that he recently pitched up his tent\n "+ m_MissionLocationDir +" of "+ m_MissionLocation +" \nI am very worried, I would really appreciate it if you could go look after him. Be-Careful, he uses traps to protect his place!";		
+        m_MissionMessage1 = "Der Funkkontakt zu "+ SurvivorName +" ist vor zwei Stunden einfach abgebrochen. Er ist eigendlich ein Ueberlebenskuenster, dennoch frage ich mich ob alles okay ist.";
+        m_MissionMessage2 = "Seine Tochter wurde infiziert, er kuemmerte sich um sie. Er erzaehlte mir das er vor kurzem bei "+ m_MissionLocation +" Ausruestung fand, diese aber noch nicht in sein Camp bringen konnte.";
+        m_MissionMessage3 = "Er wollte wohl ein Zelt verstecken\n "+ m_MissionLocationDir +" bei "+ m_MissionLocation +" \nIch bin etwas besorgt, koenntest du wohl nachsehen. Aber Achtung, er ist ein guter Fallensteller!";		
 				
 		//Infected spawnpoints
 		InfectedSpawns.Insert("-10.5186 0 25.0269");
