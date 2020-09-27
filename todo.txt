@@ -1,0 +1,3 @@
+Bucht geht nicht
+https://github.com/DasBrunzel/dayz_server/blob/master/Livonia/ServerProfile/ExpansionMod/Settings/BookSettings.json
+---
