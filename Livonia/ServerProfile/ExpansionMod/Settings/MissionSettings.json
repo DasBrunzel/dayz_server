@@ -1,7 +1,7 @@
 {
     "Enabled": 1,
     "TimeBetweenMissions": 600000,
-    "MinMissions": 0,
+    "MinMissions": 1,
     "MaxMissions": 1,
     "MinPlayersToStartMissions": 0,
     "Missions": [
