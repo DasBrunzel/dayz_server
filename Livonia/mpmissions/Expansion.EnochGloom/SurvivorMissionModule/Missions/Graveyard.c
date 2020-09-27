@@ -33,9 +33,9 @@ class GraveyardMission extends SurvivorMissions
 		SurvivorName = SurvivorNames.GetRandomElement();
 		
 		//Set mission messages
-		m_MissionMessage1 = "I just received that the commander of the Chernarus Defense Troups General Major "+ SurvivorName +" hasn't survived his infection.";
-		m_MissionMessage2 = "He was one of the Soviet Army officers in Chernarus. "+ SurvivorName +" told me that he lost over 2000 men here and will never give up the fight against the infection as long as he lives. He got infected while securing residents of "+ m_MissionLocation +".";
-		m_MissionMessage3 = "He hided some equipment at the graveyard of\n** "+ m_MissionLocation +", "+ m_MissionLocationDir +" near the church **\nI think someone should get his lagcy. He burried it anywhere near the graves. You need atleast a shovel. Take care!";
+		m_MissionMessage1 = "Ein Funkspruch informierte mich darüber, das Major "+ SurvivorName +" von den Schutztruppen dem Virus nach einer Bisswunde erlegen ist.";
+		m_MissionMessage2 = "Er war wohl Soldat in der Schlacht gegen die Infizierten in Chernarus. "+ SurvivorName +" verlor bei Balota mehr als 2000 Männer, gab aber seinen Kampf gegen die Zombies nie auf. Er kämpfte zuletzt bei"+ m_MissionLocation +".";
+		m_MissionMessage3 = "Am Friedhof von\n** "+ m_MissionLocation +", "+ m_MissionLocationDir +" soll er Ausrüstung versteckt haben. **\nI Du solltest die das Zeug schnappen. Nimm eine Schaufel mit, er hat es sicher verbuddelt. Pass auf dich auf!";
 		
 		//Infected spawnpoints
 		InfectedSpawns.Insert("-10.5186 0 25.0269");
