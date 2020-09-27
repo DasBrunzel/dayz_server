@@ -1,6 +1,6 @@
-Bucht geht nicht
+Bucht geht nicht (Andy) habe den Fehler gefunden und werde ihn im Laufe des Tages fixen 
 https://github.com/DasBrunzel/dayz_server/blob/master/Livonia/ServerProfile/ExpansionMod/Settings/BookSettings.json
----
+) ---
 Zombies einstellen
 ---
 Bus kann nicht  verkauft werden
