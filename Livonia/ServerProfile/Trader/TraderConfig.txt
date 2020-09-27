@@ -267,6 +267,7 @@
 		Engraved1911,				W,		-1,		180
 		St_W_BerettaM9,				W,		200,		250
 		St_W_Walther,				W,		200,		250
+		St_W_Colt_9mm,				W,		200,		250
 		
 	<Category> Rifles
 		Izh18,					W,		-1,		175
@@ -274,6 +275,7 @@
 		CZ527,					W,		-1,		250
 		Winchester70,				W,		-1,		250
 		SKS,					W,		-1,		300
+		St_W_Kar98k,				W,		500,		350
 		
 	<Category> Shotguns
 		Mp133Shotgun,				W,		-1,		250
@@ -287,6 +289,7 @@
 		MP5K,					W,		-1,		450	
 		AKS74U,					W,		-1,		600
 		St_W_KAC_PDW,				W,		700,		500
+		St_W_MP5SD,				W,		700,		500
 		
 	<Category> Assault Rifles
 		FAL,					W,		-1,		450
@@ -304,6 +307,11 @@
 		
 	//<Category> Light Machine Guns
 		St_W_GalilARM,				W,		1000,		750
+		St_W_M39EMR,				W,		1000,		750
+		St_W_M39EMR_brown,			W,		1000,		750
+		St_W_M39EMR_tan,			W,		1000,		750
+		St_W_M39EMR_pixelcity,			W,		1000,		750
+		St_W_M39EMR_pixeltan,			W,		1000,		750
 	
 	//<Category> Machine Guns
 		St_W_PKM,				W,		1500,		750
@@ -313,21 +321,10 @@
 		VSS,					W,		-1,		960
 		B95,					W,		-1,		1100
 		SVD,					W,		1500,		1200
+		St_W_BarretM107,			W,		1750,		1500
+		ST_W_SV98,				W,		1750,		1500
 		
-	<Category> Neue Waffen
-		
-
-			
-		St_W_BarretM107,
-		St_W_Kar98k,
-		St_W_M39EMR,
-		St_W_M39EMR_brown,
-		St_W_M39EMR_tan,
-		St_W_M39EMR_pixelcity,
-		St_W_M39EMR_pixeltan,
-		St_W_SV98,
-		St_W_Colt_9mm,
-		St_W_MP5SD,
+	
 		
 	<Category> Neue Magazine	
 		St_AmmoBox_57x28_50Rnd,
