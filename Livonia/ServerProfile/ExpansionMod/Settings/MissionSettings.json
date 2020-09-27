@@ -1,9 +1,9 @@
 {
     "Enabled": 1,
     "TimeBetweenMissions": 600000,
-    "MinMissions": 1,
-    "MaxMissions": 1,
-    "MinPlayersToStartMissions": 0,
+    "MinMissions": 4,
+    "MaxMissions": 5,
+    "MinPlayersToStartMissions": 1,
     "Missions": [
         {
             "MissionType": "ExpansionMissionEventAirdrop",
