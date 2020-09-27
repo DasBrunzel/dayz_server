@@ -41,13 +41,13 @@ class FreePigsMission extends SurvivorMissions
 		m_MissionInformant = "Dr. Legasov";
 	
 		//Mission person names
-		TStringArray SurvivorNames = {"Yuri","Michail","Boris","Valeri","Anatoli","Ivan","Alexej","Dimitrij","Sergej","Nikolai","Vladimir"};
+		TStringArray SurvivorNames = {"Yuri","Michail","Boris","Gonso","Anatoli","Ivan","Bruno","Dimitrij","Murrat","Nikolai","Vladimir"};
 		SurvivorName = SurvivorNames.GetRandomElement();
 		
 		//Set mission messages for primary mission
-		m_MissionMessage1 = SurvivorName +", a farmer from "+ m_MissionLocation +", died 2 days ago after a attack from bandits. He was protecting his animls from infected and scavengers and was farming pigs to deliver meat to the young and old survivors hideout somewhere in the forests.";
-		m_MissionMessage2 = "He was well known under survivors for his perfection in making good bacon and spiced meat for barbecue. His pigs are still in the shed and I am afraid they could starve to death, if they are not already dead by infected or robbed by bandits.";
-		m_MissionMessage3 = "Go to "+ SurvivorName +"'s farm located \n** "+ m_MissionLocationDir +" of "+ m_MissionLocation +" **\nand free all the pigs from their cage to give them a chance to survive. You need at least a knife.";
+		m_MissionMessage1 = SurvivorName +", ein Bauer aus "+ m_MissionLocation +", wurde vor zwei Tagen von Banditen umgebracht. Er beschütze seine Schweine vor Zombies und Aasgeiern, um Fleisch an Ueberlebende in den Waeldern zu liefern.";
+		m_MissionMessage2 = "Ueberlebende berichteten mir von seinem leckeren Bacon und den geschmackvollen Grillfleisch. Die Schweine sind noch dort im Schuppen und könnten jederzeit verhungern oder von Infizierten oder Banditen getoetet werden.";
+		m_MissionMessage3 = "Brich auf zu "+ SurvivorName +"'s Farm in \n** "+ m_MissionLocationDir +" bei "+ m_MissionLocation +" **\befreie die Tiere aus ihrer Gefangenschaft. Du wirst ein gutes Messer brauchen.";
 		
 		//Spawnpoints for caged pigs in farm (view from inside building at door position)
 		//right cage row
