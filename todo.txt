@@ -1,3 +1,10 @@
 Bucht geht nicht
 https://github.com/DasBrunzel/dayz_server/blob/master/Livonia/ServerProfile/ExpansionMod/Settings/BookSettings.json
 ---
+Zombies einstellen
+---
+Bus kann nicht  verkauft werden
+---
+Trader mit mod abgleichen
+---
+Trader überarbeiten
