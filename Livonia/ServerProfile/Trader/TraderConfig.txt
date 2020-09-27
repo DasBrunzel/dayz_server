@@ -246,7 +246,6 @@
 		Bear_Dark,					*,		-1,		25
 		Bear_Pink,					*,		-1,		25
 		Bear_White,					*,		-1,		25
-
 		
 <Trader> Weapon Trader
 	<Category> Melee	
@@ -436,7 +435,7 @@
 		St_Mag_Colt_9mm_30Rnd,				M,		50,		25
 		Mag_MP5_30Rnd,					M,		100,		50
 		
-<Category> Handguards
+	<Category> Handguards
 		MP5_PlasticHndgrd,				*,		100,		50
 		MP5_RailHndgrd,					*,		150,		75
 		AK74_Hndgrd,					*,		150,		75
@@ -535,9 +534,9 @@
 		WorkingGloves_Beige,				*,		-1,		8
 		WorkingGloves_Brown,				*,		-1,		8
 		WorkingGloves_Black,				*,		-1,		8
-		TacticalGloves_Beige,				*,		-1,		10
-		TacticalGloves_Black,				*,		-1,		10
-		TacticalGloves_Green,				*,		-1,		10
+		TacticalGloves_Beige,				*,		25,		10
+		TacticalGloves_Black,				*,		25,		10
+		TacticalGloves_Green,				*,		25,		10
 		OMNOGloves_Gray,				*,		-1,		12
 		OMNOGloves_Brown,				*,		-1,		12
 		NBCGlovesGray,					*,		-1,		20
@@ -731,19 +730,19 @@
 		Hoodie_Green,					*,		-1,		7
 		
 	<Category> Vests
-		ReflexVest,					*,		-1,		1
+		ReflexVest,					*,		1,		1
 		PoliceVest,					*,		-1,		10
 		HuntingVest,					*,		-1,		18
 		PressVest_LightBlue,				*,		-1,		28
 		PressVest_Blue,					*,		-1,		30
-		UKAssVest_Black,				*,		-1,		30
-		UKAssVest_Khaki,				*,		-1,		30
-		UKAssVest_Olive,				*,		-1,		30
-		UKAssVest_Camo,					*,		-1,		35
-		SmershVest,					*,		-1,		50
-		HighCapacityVest_Black,				*,		-1,		60
-		HighCapacityVest_Olive,				*,		-1,		75
-		PlateCarrierVest,				*,		-1,		80
+		UKAssVest_Black,				*,		90,		30
+		UKAssVest_Khaki,				*,		90,		30
+		UKAssVest_Olive,				*,		90,		30
+		UKAssVest_Camo,					*,		90,		35
+		SmershVest,					*,		120,		50
+		HighCapacityVest_Black,				*,		180,		60
+		HighCapacityVest_Olive,				*,		180,		75
+		PlateCarrierVest,				*,		200,		80
 
 	<Category> Jackets & Coats
 		LabCoat,					*,		-1,		3
@@ -829,10 +828,10 @@
 		M65Jacket_Black,				*,		-1,		40
 		M65Jacket_Khaki,				*,		-1,		40
 		M65Jacket_Olive,				*,		-1,		40
-		GorkaEJacket_Autumn,				*,		-1,		45
-		GorkaEJacket_Flat,				*,		-1,		45
-		GorkaEJacket_PautRev,				*,		-1,		45
-		GorkaEJacket_Summer,				*,		-1,		45
+		GorkaEJacket_Autumn,				*,		100,		45
+		GorkaEJacket_Flat,				*,		100,		45
+		GorkaEJacket_PautRev,				*,		100,		45
+		GorkaEJacket_Summer,				*,		100,		45
 		USMCJacket_Desert,				*,		140,		45
 		USMCJacket_Woodland,				*,		155,		55
 		NBCJacketGray,					*,		250,		80
@@ -851,7 +850,7 @@
 		MiniDress_BrownChecker,				*,		-1,		10
 		MiniDress_GreenChecker,				*,		-1,		10
 		NurseDress_Blue,				*,		-1,		10
-		NurseDress_White,				*,		-1,		10
+		NurseDress_White,				*,		12,		10
 
 	<Category> Pants
 		MedicalScrubsPants_Blue,			*,		-1,		2
@@ -935,91 +934,91 @@
 		NBCPantsGray,					*,		-1,		65
 	
 	<Category> Shoes & Boots
-		AthleticShoes_Blue,		*,		17,		4
-		AthleticShoes_Grey,		*,		20,		5
-		AthleticShoes_Brown,	*,		20,		5
-		AthleticShoes_Black,	*,		23,		5
-		AthleticShoes_Green,	*,		23,		5
-		JoggingShoes_Violet,	*,		30,		7
-		JoggingShoes_Red,		*,		30,		7
-		JoggingShoes_Blue,		*,		30,		7
-		JoggingShoes_White,		*,		30,		7
-		JoggingShoes_Black,		*,		30,		7
-		Sneakers_Red,			*,		30,		7
-		Sneakers_White,			*,		30,		7
-		Sneakers_Gray,			*,		30,		7
-		Sneakers_Black,			*,		31,		7
-		Sneakers_Green,			*,		32,		7
-		DressShoes_White,		*,		32,		7
-		DressShoes_Brown,		*,		35,		8
-		DressShoes_Black,		*,		35,		8
-		DressShoes_Beige,		*,		35,		8
-		DressShoes_Sunburst,	*,		35,		8
-		HikingBootsLow_Blue,	*,		45,		12
-		HikingBootsLow_Grey,	*,		45,		12
-		HikingBootsLow_Beige,	*,		48,		13
-		HikingBootsLow_Black,	*,		50,		14
-		WorkingBoots_Yellow,	*,		55,		12
-		WorkingBoots_Grey,		*,		60,		15
-		WorkingBoots_Beige,		*,		60,		15
-		WorkingBoots_Brown,		*,		60,		15
-		WorkingBoots_Green,		*,		65,		17
-		HikingBoots_Brown,		*,		75,		20
-		HikingBoots_Black,		*,		75,		20
-		CombatBoots_Grey,		*,		80,		22
-		CombatBoots_Beige,		*,		80,		22
-		CombatBoots_Brown,		*,		80,		22
-		CombatBoots_Black,		*,		80,		22
-		CombatBoots_Green,		*,		80,		22
-		JungleBoots_Beige,		*,		85,		24
-		JungleBoots_Brown,		*,		85,		24
-		JungleBoots_Black,		*,		85,		24
-		JungleBoots_Olive,		*,		85,		24
-		JungleBoots_Green,		*,		85,		24
-		Wellies_Grey,			*,		85,		25
-		Wellies_Brown,			*,		85,		25
-		Wellies_Black,			*,		85,		25
-		Wellies_Green,			*,		90,		28
-		TTSKOBoots,				*,		100,	35
-		MilitaryBoots_Redpunk,	*,		100,	35
-		MilitaryBoots_Bluerock,	*,		105,	35
-		MilitaryBoots_Beige,	*,		110,	35
-		MilitaryBoots_Brown,	*,		110,	35
-		MilitaryBoots_Black,	*,		110,	35
-		NBCBootsGray,			*,		150,	50
+		AthleticShoes_Blue,				*,		-1,		4
+		AthleticShoes_Grey,				*,		-1,		5
+		AthleticShoes_Brown,				*,		-1,		5
+		AthleticShoes_Black,				*,		-1,		5
+		AthleticShoes_Green,				*,		-1,		5
+		JoggingShoes_Violet,				*,		-1,		7
+		JoggingShoes_Red,				*,		-1,		7
+		JoggingShoes_Blue,				*,		-1,		7
+		JoggingShoes_White,				*,		-1,		7
+		JoggingShoes_Black,				*,		-1,		7
+		Sneakers_Red,					*,		-1,		7
+		Sneakers_White,					*,		-1,		7
+		Sneakers_Gray,					*,		-1,		7
+		Sneakers_Black,					*,		-1,		7
+		Sneakers_Green,					*,		-1,		7
+		DressShoes_White,				*,		-1,		7
+		DressShoes_Brown,				*,		-1,		8
+		DressShoes_Black,				*,		-1,		8
+		DressShoes_Beige,				*,		-1,		8
+		DressShoes_Sunburst,				*,		-1,		8
+		HikingBootsLow_Blue,				*,		-1,		12
+		HikingBootsLow_Grey,				*,		-1,		12
+		HikingBootsLow_Beige,				*,		-1,		13
+		HikingBootsLow_Black,				*,		-1,		14
+		WorkingBoots_Yellow,				*,		-1,		12
+		WorkingBoots_Grey,				*,		-1,		15
+		WorkingBoots_Beige,				*,		-1,		15
+		WorkingBoots_Brown,				*,		-1,		15
+		WorkingBoots_Green,				*,		-1,		17
+		HikingBoots_Brown,				*,		-1,		20
+		HikingBoots_Black,				*,		-1,		20
+		CombatBoots_Grey,				*,		80,		22
+		CombatBoots_Beige,				*,		80,		22
+		CombatBoots_Brown,				*,		80,		22
+		CombatBoots_Black,				*,		80,		22
+		CombatBoots_Green,				*,		80,		22
+		JungleBoots_Beige,				*,		85,		24
+		JungleBoots_Brown,				*,		85,		24
+		JungleBoots_Black,				*,		85,		24
+		JungleBoots_Olive,				*,		85,		24
+		JungleBoots_Green,				*,		85,		24
+		Wellies_Grey,					*,		85,		25
+		Wellies_Brown,					*,		85,		25
+		Wellies_Black,					*,		85,		25
+		Wellies_Green,					*,		90,		28
+		TTSKOBoots,					*,		100,		35
+		MilitaryBoots_Redpunk,				*,		100,		35
+		MilitaryBoots_Bluerock,				*,		105,		35
+		MilitaryBoots_Beige,				*,		110,		35
+		MilitaryBoots_Brown,				*,		110,		35
+		MilitaryBoots_Black,				*,		110,		35
+		NBCBootsGray,					*,		-1,		50
 
 	<Category> Ghillie
 		// Keep in Mind that Players can also 
 		// craft Ghillie Clothing and sell them!
-		GhillieAtt_Mossy,		*,		220,	70
-		GhillieAtt_Tan,			*,		220,	70
-		GhillieAtt_Woodland,	*,		220,	70
-		GhillieHood_Mossy,		*,		220,	70
-		GhillieHood_Tan,		*,		220,	70
-		GhillieHood_Woodland,	*,		220,	70
-		GhillieBushrag_Mossy,	*,		400,	130
-		GhillieBushrag_Tan,		*,		400,	130
-		GhillieBushrag_Woodland,*,		400,	130
-		GhillieTop_Mossy,		*,		600,	200
-		GhillieTop_Tan,			*,		600,	200
-		GhillieTop_Woodland,	*,		600,	200
-		GhillieSuit_Mossy,		*,		1000,	300
-		GhillieSuit_Tan,		*,		1000,	300
-		GhillieSuit_Woodland,	*,		1000,	300
+		GhillieAtt_Mossy,				*,		220,		70
+		GhillieAtt_Tan,					*,		220,		70
+		GhillieAtt_Woodland,				*,		220,		70
+		GhillieHood_Mossy,				*,		220,		70
+		GhillieHood_Tan,				*,		220,		70
+		GhillieHood_Woodland,				*,		220,		70
+		GhillieBushrag_Mossy,				*,		400,		130
+		GhillieBushrag_Tan,				*,		400,		130
+		GhillieBushrag_Woodland,			*,		400,		130
+		GhillieTop_Mossy,				*,		600,		200
+		GhillieTop_Tan,					*,		600,		200
+		GhillieTop_Woodland,				*,		600,		200
+		GhillieSuit_Mossy,				*,		1000,		300
+		GhillieSuit_Tan,				*,		1000,		300
+		GhillieSuit_Woodland,				*,		1000,		300
 		
 	//<Category> Seasonal
-		//SantasBeard,			*,		15,		0
-		//SantasHat,			*,		35,		0
-		//PumpkinHelmet,		*,		50,		0
+		//SantasBeard,					*,		15,		10
+		//SantasHat,					*,		15,		10
+		//PumpkinHelmet,				*,		15,		10
 
 	<Category> Holster & Pouches
-		ChestHolster,			*,		60,		20
-		PlateCarrierHolster,	*,		60,		20
-		PlateCarrierPouches,	*,		100,		20
+		ChestHolster,					*,		60,		20
+		PlateCarrierHolster,				*,		60,		20
+		PlateCarrierPouches,				*,		100,		20
 		
 	<Category> Belt
-		CivilianBelt,			*,		100,	30
-		MilitaryBelt,			*,		100,	30
+		CivilianBelt,					*,		100,		30
+		MilitaryBelt,					*,		100,		30
 		
 	<Category> Bags
 		ChildBag_Red,			*,		20,		5
